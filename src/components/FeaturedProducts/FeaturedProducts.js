@@ -1,11 +1,12 @@
-// components/FeaturedProducts.js
 
 import Link from 'next/link';
-
+ 
 const FeaturedProducts = ({ products }) => {
+
+    
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {products.map((product) => (
+      {products && products?.map((product) => (
         <div key={product.id} className="border p-4 rounded-md">
           <img
             src={product.image}
@@ -20,24 +21,18 @@ const FeaturedProducts = ({ products }) => {
           </p>
           <p className="mb-2">Rating: {product.rating}/5 Stars</p>
           <Link href={`/product/${product.id}`}>
-            <a className="text-blue-500 hover:underline">View Details</a>
+            <p className="text-blue-500 hover:underline">View Details</p>
           </Link>
         </div>
       ))}
     </section>
+     
   );
 };
 
 export default FeaturedProducts;
 
-export async function getServerSideProps() {
-  // Fetch data for Featured Products
-  const res = await fetch('/data/products.json'); // Adjust the path accordingly
-  const products = await res.json();
+ 
 
-  return {
-    props: {
-      products,
-    },
-  };
-}
+ 
+

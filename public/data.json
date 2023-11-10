@@ -1,0 +1,67 @@
+{
+    "featuredProducts": [
+        {
+            "id": 1,
+            "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/ripjaws-v-8gb-3400/ripjaws-v-8gb-228x228.jpg",
+            "name": " DDR4 2666MHz C19 RAM",
+            "category": "Ram",
+            "price": 2499.99,
+            "status": "In Stock",
+            "rating": 4.5
+        },
+        {
+            "id": 2,
+            "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/arktek/ak-h81m-el/ak-h81m-el-01-228x228.webp",
+            "name": "ARKTEK AK-H81M   Motherboard",
+            "category": "Motherboard ",
+            "price": 4993.99,
+            "status": "In Stock",
+            "rating": 4.2
+        },
+        {
+            "id": 3,
+            "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/colorful/igame-geforce-rtx-4060-ti-ultra-w-duo-oc-16gb-v/igame-geforce-rtx-4060-ti-ultra-w-duo-oc-16gb-v-01-228x228.webp",
+            "name": "GDDR6 Graphics Card",
+            "category": " Graphics Card",
+            "price": 1459.99,
+            "status": "In Stock",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-228x228.webp",
+            "name": "Power Train PT-P200B 200W Power Supply",
+            "category": "Power Supply",
+            "price": 499.99,
+            "status": "In Stock",
+            "rating": 4.5
+        },
+        {
+            "id": 5,
+            "image": "https://www.startech.com.bd/image/cache/catalog/ssd/netac/ls-ne-sa500/ls-ne-sa500-01-228x228.webp",
+            "name": "Netac  SATAIII SSD",
+            "category": "SSD",
+            "price": 1200,
+            "status": "Out of stock",
+            "rating": 5
+        },
+        {
+            "id": 6,
+            "image": "https://www.startech.com.bd/image/cache/catalog/casing/hyte/y60-white/y60-wb-01-228x228.webp",
+            "name": "  ATX Gaming Casing Red",
+            "category": "Casing",
+            "price": 2500,
+            "status": "In Stock",
+            "rating": 5
+        }
+    ],
+    "featuredCategories": [
+        "CPU / Processor",
+        "Motherboard",
+        "RAM",
+        "Power Supply Unit",
+        "Storage Device",
+        "Monitor",
+        "Others"
+    ]
+}
