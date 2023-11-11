@@ -2,6 +2,8 @@ import FeaturedCategories from "@/components/FeaturedCategories/FeaturedCategori
 import FeaturedProducts from "@/components/FeaturedProducts/FeaturedProducts";
 import Layout from "@/components/common/Leyaot/Layout";
 import data from "../../public/data.json";
+import RamInfoForm from "@/components/RamInfoForm";
+ 
 
 export default function Home({ featuredProducts, featuredCategories }) {
   return (
@@ -9,15 +11,22 @@ export default function Home({ featuredProducts, featuredCategories }) {
       <Layout>
         <FeaturedProducts products={featuredProducts} ></FeaturedProducts>
         <FeaturedCategories categories={featuredCategories}></FeaturedCategories>
+     
+    <RamInfoForm></RamInfoForm>
+     
       </Layout>
     </>
   );
 }
 
 export async function getStaticProps() {
-  
-  const featuredProducts = data.featuredProducts;
-  const featuredCategories = data.featuredCategories;
+  // Fetch data from the first API
+  const productsResponse = await fetch('http://localhost:5000/product/featured');
+  const featuredProducts = await productsResponse.json();
+
+  // Fetch data from the second API
+  const categoriesResponse = await fetch('http://localhost:5000/category');
+  const featuredCategories = await categoriesResponse.json();
 
   return {
     props: {
@@ -26,3 +35,6 @@ export async function getStaticProps() {
     },
   };
 }
+
+
+

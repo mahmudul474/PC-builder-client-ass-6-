@@ -7,8 +7,35 @@
             "category": "Ram",
             "price": 2499.99,
             "status": "In Stock",
-            "rating": 4.5
+            "rating": 4.5,
+           " description": "Description for Product 1",
+            "keyFeatures": [
+               ""
+            ] ,
+           " individualRating": 4,
+            "averageRating": 4.5,
+            "reviews": [
+                {
+                    "comment":"Good Prodyct"
+                },
+                {
+                    "comment":"Good Prodyct"
+                }
+            ]
         },
+
+
+
+
+
+
+
+
+
+
+
+
+
         {
             "id": 2,
             "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/arktek/ak-h81m-el/ak-h81m-el-01-228x228.webp",
@@ -56,12 +83,32 @@
         }
     ],
     "featuredCategories": [
-        "CPU / Processor",
-        "Motherboard",
-        "RAM",
-        "Power Supply Unit",
-        "Storage Device",
-        "Monitor",
-        "Others"
+        {
+            "name": "CPU / Processor"
+        },
+        {
+         "name":"Mother Bord"
+        },
+        {
+            "name": "RAM"
+        },
+        {
+            "name": "Power Supply Unit"
+        },
+        {
+            "name":"Storage Device" 
+           
+        },
+        {
+            "name":"Monitor" 
+      
+        },
+        {
+            "name":"Others" 
+          
+        }
+       
+        
+        
     ]
 }

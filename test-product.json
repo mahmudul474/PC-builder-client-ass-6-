@@ -1,0 +1,160 @@
+{
+    "featuredProducts": [
+        {
+            "id": 1,
+            "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/ripjaws-v-8gb-3400/ripjaws-v-8gb-228x228.jpg",
+            "name": " G.Skill Ripjaws V 16GB  RAM",
+            "category": "Ram",
+            "price": 2499.99,
+            "status": "In Stock",
+            "rating": 4.5,
+           "description":"G.Skill Ripjaws V 16GB DDR4 2666MHz C19 RAM The G.Skill Ripjaws V 16GB DDR4 2666MHz c Desktop RAM is designed for sleek aesthetics and performance, making it an ideal choice for building a new PC system or for upgrading your system memory. As the latest addition to the classic Ripjaws family, the Ripjaws V series is the newest DDR4 memory designed for maximum compatibility and cutting-edge performance",
+
+
+            "keyFeatures": [
+               "MPN: F4-2666C19D-32GVR",
+               "MPN: F4-2666C19D-32GVR",
+               "Model: G.Skill Ripjaws V",
+               "Capacity: 16GB",
+               "Speed: 2666Mhz",
+               "Latency: 19-19-19-43"
+
+            ] ,
+           " individualRating": 4,
+            "averageRating": 4.5,
+            "reviews": [
+                {
+                    "comment":"Not just a memory module, but a work of art! The Corsair Vengeance RGB Pro not only enhances your system's performance with high-speed memory but also adds a touch of customizable RGB flair."
+                },
+                {
+                    "comment":"Good Product"
+                }
+            ]
+        },  {
+          
+            "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-ddr5-02-500x500.jpg",
+            "name": " Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM",
+            "category": "Ram",
+            "price": 1499.99,
+            "status": "In Stock",
+            "rating": 4,
+           "description":"Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM features the unprecedented processing speed of DDR5 that ensures your high-end CPU gets data quickly and with ease. It has a tested latency of 40-40-40-77. Whether you are gaming, creating",
+           " categoryID":"1234",
+
+            "keyFeatures": [
+               " MPN: CMK32GX5M2E6200C36",
+                "Model: VENGEANCE DDR5",
+                "RAM Size: 16GB, Speed: 6200MHz",
+                "Latency: 40-40-40-77",
+                "Compatibility: Intel 600 Series",
+                "Performance Profile: XMP 3.0"
+
+            ] ,
+           " individualRating": 5,
+            "averageRating": 4.9,
+            "reviews": [
+                {
+                    "comment":"Not just a memory module, but a work of art! The Corsair Vengeance RGB Pro not only enhances your system's performance with high-speed memory but also adds a touch of customizable RGB flair."
+                },
+                {
+                    "comment":"Good Product"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        
+        {
+            "id": 2,
+            "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/arktek/ak-h81m-el/ak-h81m-el-01-228x228.webp",
+            "name": "ARKTEK AK-H81M   Motherboard",
+            "category": "Motherboard ",
+            "price": 4993.99,
+            "status": "In Stock",
+            "rating": 4.2
+        },
+        {
+            "id": 3,
+            "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/colorful/igame-geforce-rtx-4060-ti-ultra-w-duo-oc-16gb-v/igame-geforce-rtx-4060-ti-ultra-w-duo-oc-16gb-v-01-228x228.webp",
+            "name": "GDDR6 Graphics Card",
+            "category": " Graphics Card",
+            "price": 1459.99,
+            "status": "In Stock",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-228x228.webp",
+            "name": "Power Train PT-P200B 200W Power Supply",
+            "category": "Power Supply",
+            "price": 499.99,
+            "status": "In Stock",
+            "rating": 4.5
+        },
+        {
+            "id": 5,
+            "image": "https://www.startech.com.bd/image/cache/catalog/ssd/netac/ls-ne-sa500/ls-ne-sa500-01-228x228.webp",
+            "name": "Netac  SATAIII SSD",
+            "category": "SSD",
+            "price": 1200,
+            "status": "Out of stock",
+            "rating": 5
+        },
+        {
+            "id": 6,
+            "image": "https://www.startech.com.bd/image/cache/catalog/casing/hyte/y60-white/y60-wb-01-228x228.webp",
+            "name": "  ATX Gaming Casing Red",
+            "category": "Casing",
+            "price": 2500,
+            "status": "In Stock",
+            "rating": 5
+        }
+    ],
+    "featuredCategories": [
+        {
+            "name": "CPU / Processor",
+            "categoryID": "CPU-Processor"
+        },
+        {
+            "name": "RAM",
+            "categoryID": "Ram"
+        },
+        {
+            "name": "Power Supply Unit",
+            "categoryID": "Power-Supply"
+        },
+        {
+            "name":"Storage Device" ,
+            "categoryID":"Storage-Device"
+        },
+        {
+            "name":"Monitor" ,
+            "categoryID":"Others"
+        },
+        {
+            "name":"Others" ,
+            "categoryID":"Others"
+        }
+       
+        
+        
+    ]
+}
