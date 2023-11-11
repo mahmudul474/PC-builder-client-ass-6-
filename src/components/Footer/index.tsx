@@ -1,38 +1,17 @@
+import Image from "next/image"
+import  logo from "./logo.png"
+
 export const FooterComponent = () => {
     return (
         <footer className="text-center text-lg-start bg-white text-muted">
             <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                {/*<div className="me-5 d-none d-lg-block">*/}
-                {/*    <span>Get connected with us on social networks:</span>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <a href="" className="me-4 link-secondary">*/}
-                {/*        <i className="fab fa-facebook-f"></i>*/}
-                {/*    </a>*/}
-                {/*    <a href="" className="me-4 link-secondary">*/}
-                {/*        <i className="fab fa-twitter"></i>*/}
-                {/*    </a>*/}
-                {/*    <a href="" className="me-4 link-secondary">*/}
-                {/*        <i className="fab fa-google"></i>*/}
-                {/*    </a>*/}
-                {/*    <a href="" className="me-4 link-secondary">*/}
-                {/*        <i className="fab fa-instagram"></i>*/}
-                {/*    </a>*/}
-                {/*    <a href="" className="me-4 link-secondary">*/}
-                {/*        <i className="fab fa-linkedin"></i>*/}
-                {/*    </a>*/}
-                {/*    <a href="" className="me-4 link-secondary">*/}
-                {/*        <i className="fab fa-github"></i>*/}
-                {/*    </a>*/}
-                {/*</div>*/}
+               
             </section>
             <section className="">
                 <div className="container text-center text-md-start mt-5">
                     <div className="row mt-3">
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold mb-4">
-                                <i className="fas fa-gem me-3 text-secondary"></i>Company name
-                            </h6>
+                            <Image src={logo} alt="logo" width={200} height={100}/>
                             <p>
                                 Here you can use rows and columns to organize your footer content. Lorem ipsum
                                 dolor sit amet, consectetur adipisicing elit.
@@ -87,8 +66,9 @@ export const FooterComponent = () => {
                 </div>
             </section>
             <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.025)"}}>
-                © 2021 Copyright:
-                <span className="text-reset fw-bold"> PC House ltd.</span>
+             2023 Copyright:
+                <span className="text-reset fw-bold">&#169; PC Builder
+ </span>
             </div>
         </footer>
     )

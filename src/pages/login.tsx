@@ -1,4 +1,5 @@
 import { signIn, useSession } from "next-auth/react";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { Button } from "react-bootstrap";
@@ -19,8 +20,9 @@ export default function SignInPage() {
                     })}
                 >
                     <span>
-                        <BsGoogle />oogle
+ <Image width={100} height={100} alt="google icon" className="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
                     </span>
+                    oogle
                 </Button>
             </div>
         </div>
