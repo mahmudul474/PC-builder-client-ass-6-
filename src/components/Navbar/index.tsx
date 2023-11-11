@@ -1,6 +1,7 @@
 import {Button, Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import Link from "next/link";
 import {signIn, signOut, useSession} from "next-auth/react"
+import logo from "./logo.png"
  
 import Image from "next/image";
 
@@ -11,7 +12,7 @@ export const NavbarComponent = () => {
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
             <Container>
                 <Navbar.Brand href="/">
-                    < h1>LOGO</h1>
+                    <Image width={200} height={100} objectFit="cover" src={logo}   alt="logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
