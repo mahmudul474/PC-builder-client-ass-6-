@@ -9,7 +9,7 @@ export const ProductCard = ({ product }: { product: TProduct }) => {
         <Card
             hoverable
             style={{ width: "80%" }}
-            cover={<img alt="example" src={product.image} height={"200em"} />}
+            cover={<img  alt="example" src={product.image} height={"200em"} />}
             onClick={() => router.push(`/product/${product.id}`)}
         >
             {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
