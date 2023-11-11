@@ -1,0 +1,8 @@
+.custom-hoverOn-featured-category:hover {
+    color: cadetblue;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s;
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .5);
+}
+
